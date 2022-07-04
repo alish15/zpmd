@@ -12,6 +12,11 @@ a{
     background-size: cover;
     position: relative;
 }
+@media only screen and (min-width: 768px) {
+    .first-div{
+        background-attachment: fixed;
+    }
+}
 .c-menu{
     display: flex;
     justify-content: start;
