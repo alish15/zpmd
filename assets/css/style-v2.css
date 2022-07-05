@@ -17,6 +17,7 @@ a{
         background-attachment: fixed;
     }
 }
+
 .c-menu{
     display: flex;
     justify-content: start;
@@ -48,7 +49,7 @@ a{
     right: calc(50% - 100px);
 }
 .tradezex{
-    padding: 10px 30px;
+    padding: 10px 0;
     font-size: 1.3rem;
     font-weight: bold;
     background: linear-gradient(160deg,#017bfd 0%,#20bfe1 100%);;
