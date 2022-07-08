@@ -52,25 +52,29 @@ a{
     padding: 10px 0;
     font-size: 1.3rem;
     font-weight: bold;
-    background: linear-gradient(160deg,#017bfd 0%,#20bfe1 100%);;
+    background: linear-gradient(160deg,#017bfd 0%,#20bfe1 100%);
     border: none;
     border-radius: 7px;
     margin-top: 50px;
     width: 200px;
-    transition: background-color 0.4s;
     cursor: pointer;
-    box-shadow: 1px -3px 6px 3px rgb(0 0 0 / 13%);
+    color: white;
+    display: block;
 }
 .tradezex:hover{
     background: linear-gradient(160deg,#a11f85 0%,#d2538a 100%);
-}
-.tradezex a{
     color: white;
+
 }
-.tradezex a::after{
+.tradezex::after{
     font-family: "Font Awesome 6 Free";
     content: " \f061";
 }
+
+
+
+
+
 .cu-div-bg{
     background-image: url(../img/Group-19936-min.png);
     background-position: center;
@@ -143,32 +147,90 @@ a{
 }
 
 .paimg{
-    max-width: 120px;
+    max-width: 300px;
     margin: auto;
     display: block;
 }
 
 
-.cu-btn{
-    display: block;
+.whitepaper{
     margin-top: 1.8rem;
     padding: 10px 30px;
     border-radius: 7px;
-    color: white;
-    background-color: #050510;
-    border: 2px solid;
-    transition: background-color 0.4s ,color 0.4s;
+    background-color: #11111b;
+    color: #fff;
+    border: 2px solid white;
+    transition: border 0.4s, background-color 0.4s ,color 0.4s;
 }
-.cu-btn:hover{
+.whitepaper:hover{
     color: #050510;
     background-color: #f8f9fa;
+    border: 2px solid white;
+
 }
+
+.live-chart{
+    padding: 10px 30px;
+    font-weight: bold;
+    background: linear-gradient(160deg,#a11f85 0%,#d2538a 100%);
+    border-radius: 7px;
+    background-color: #11111b;
+    color: #fff;
+    border: 2px solid white;
+    transition: border 0.4s, background-color 0.4s ,color 0.4s;
+}
+.live-chart:hover{
+    background: linear-gradient(160deg,#017bfd 0%,#20bfe1 100%);
+    color: white;
+
+}
+.live-chart::after{
+    font-family: "Font Awesome 6 Free";
+    content: " \f061";
+}
+
+
+
+.tokonomiks{
+    padding: 10px;
+    margin: 5px -7px;
+    border-radius: 15px;
+    background: black;
+    border: 2px solid #151515;
+}
+.percent{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #ffc107;
+}
+.teko{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #c14386;
+}
+
+
+
+
+
 
 .cu-brands{
     margin-bottom: 0;
     padding: 0;
 }
+
 .cu-brands i{
     padding: 15px;
     color: gray;
+}
+
+@media only screen and (max-width:768px){
+    .live-chart, .whitepaper{
+        display: inline-block;
+    }
+    .live-chart{
+        margin-top: 10px;
+    }
 }
