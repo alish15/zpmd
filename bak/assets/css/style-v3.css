@@ -1,0 +1,239 @@
+h1,h2,.custom-font,.cu-btn{
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.first-div{
+    height: 100vh;
+    background-image: url(../img/Sensorium_Galay_metaverse_Prism_cd88d065ed.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+@media only screen and (min-width: 768px) {
+    .first-div{
+        background-attachment: fixed;
+    }
+}
+
+.c-menu{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+.c-menu li a{
+    color: #f8f9fa;
+    text-decoration: none;
+    margin: 20px 10px 20px 0;
+    padding: 3px 0;
+    font-weight: bold;
+    transition: color 0.4s;
+    cursor: pointer;
+    background-color: rgb(0 0 0 / 55%);
+    padding: 6px 10px;
+    border-radius: 5px;
+    transition: background-color 0.4s, color 0.4s;
+}
+.c-menu li a:hover{
+    color: black;
+    background-color: #f8f9fa;
+}
+.div-tradezex{
+    position: absolute;
+    bottom: 90px;
+    right: calc(50% - 100px);
+}
+.tradezex{
+    padding: 10px 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background: linear-gradient(160deg,#017bfd 0%,#20bfe1 100%);
+    border: none;
+    border-radius: 7px;
+    margin-top: 50px;
+    width: 200px;
+    cursor: pointer;
+    color: white;
+    display: block;
+}
+.tradezex:hover{
+    background: linear-gradient(160deg,#a11f85 0%,#d2538a 100%);
+    color: white;
+
+}
+.tradezex::after{
+    font-family: "Font Awesome 6 Free";
+    content: " \f061";
+}
+
+
+
+
+
+.cu-div-bg{
+    background-image: url(../img/Group-19936-min.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.fos{
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+.fos2{
+    box-shadow: 2px -1px 13px 6px black;
+}
+
+.fos img{
+    width: 100px;
+    margin: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+.timeline {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+    max-width: 678px;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  .timeline h5 {
+  color: #0dcaf0;
+}
+.time-time{
+    color:aqua;
+}
+
+  .timeline .timeline-item {
+    position: relative;
+  }
+
+  .timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+
+  .timeline .timeline-item:after {
+    background-color: hsl(0, 0%, 90%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+  }
+
+
+
+
+.partners{
+    margin-bottom: 2rem;
+}
+
+.paimg{
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+
+
+.whitepaper{
+    margin-top: 1.8rem;
+    padding: 10px 30px;
+    border-radius: 7px;
+    background-color: #11111b;
+    color: #fff;
+    border: 2px solid white;
+    transition: border 0.4s, background-color 0.4s ,color 0.4s;
+}
+.whitepaper:hover{
+    color: #050510;
+    background-color: #f8f9fa;
+    border: 2px solid white;
+
+}
+
+.live-chart{
+    padding: 10px 30px;
+    font-weight: bold;
+    background: linear-gradient(160deg,#a11f85 0%,#d2538a 100%);
+    border-radius: 7px;
+    background-color: #11111b;
+    color: #fff;
+    border: 2px solid white;
+    transition: border 0.4s, background-color 0.4s ,color 0.4s;
+}
+.live-chart:hover{
+    background: linear-gradient(160deg,#017bfd 0%,#20bfe1 100%);
+    color: white;
+
+}
+.live-chart::after{
+    font-family: "Font Awesome 6 Free";
+    content: " \f061";
+}
+
+
+
+.tokonomiks{
+    padding: 10px 0;
+    margin: 5px -7px;
+    border-radius: 15px;
+    background: black;
+    border: 2px solid #151515;
+}
+.percent{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #ffc107;
+    padding: 0;
+}
+.teko{
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #c14386;
+    padding: 0;
+}
+
+
+
+
+
+
+.cu-brands{
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.cu-brands i{
+    padding: 15px;
+}
+.cu-brands i a::before{
+    color: #f8f9fa;
+}
+@media only screen and (max-width:768px){
+    .live-chart, .whitepaper{
+        display: inline-block;
+    }
+    .live-chart{
+        margin-top: 10px;
+    }
+}

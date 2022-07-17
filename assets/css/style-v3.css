@@ -192,7 +192,7 @@ a{
 
 
 .tokonomiks{
-    padding: 10px;
+    padding: 10px 0;
     margin: 5px -7px;
     border-radius: 15px;
     background: black;
@@ -203,12 +203,14 @@ a{
     font-weight: bold;
     font-size: 2rem;
     color: #ffc107;
+    padding: 0;
 }
 .teko{
     text-align: center;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #c14386;
+    padding: 0;
 }
 
 
@@ -223,9 +225,10 @@ a{
 
 .cu-brands i{
     padding: 15px;
-    color: gray;
 }
-
+.cu-brands i a::before{
+    color: #f8f9fa;
+}
 @media only screen and (max-width:768px){
     .live-chart, .whitepaper{
         display: inline-block;
