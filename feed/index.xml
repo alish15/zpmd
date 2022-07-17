@@ -9,35 +9,15 @@
 
 <channel>
 	<title>ZEX Planet</title>
-	<atom:link href="https://zexplanet.com/feed/" rel="self" type="application/rss+xml" />
-	<link>https://zexplanet.com</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
 	<description></description>
-	<lastBuildDate>Sun, 03 Jul 2022 17:41:11 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 17 Jul 2022 16:40:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0.1</generator>
-	<item>
-		<title>Hello world!</title>
-		<link>https://zexplanet.com/2022/07/03/hello-world/</link>
-					<comments>https://zexplanet.com/2022/07/03/hello-world/#comments</comments>
-		
-		<dc:creator><![CDATA[zex]]></dc:creator>
-		<pubDate>Sun, 03 Jul 2022 17:41:11 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">https://zexplanet.com/?p=1</guid>
-
-					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
-										<content:encoded><![CDATA[
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://zexplanet.com/2022/07/03/hello-world/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-			</item>
-	</channel>
+</channel>
 </rss>
